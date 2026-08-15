@@ -1,0 +1,5 @@
+## Plan de Integración AmylAI Modular
+- [x] Configurar una base de datos persistente para guardar datos clínicos, importaciones CSV/PDF, resultados diagnósticos y ejecuciones; aplicar una identidad visual médica sobria inspirada en cuaderno clínico digital, con tipografía clara, paleta marfil/verde petróleo/ámbar clínico, paneles tipo expediente y un diagrama de riesgo como pieza central.
+- [x] Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica.
+- [x] Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación.
+- [x] Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento.

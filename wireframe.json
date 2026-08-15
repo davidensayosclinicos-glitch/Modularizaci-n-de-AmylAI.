@@ -1,0 +1,458 @@
+{
+  "version": 4,
+  "app_title": "Plan de Integración AmylAI Modular",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-7bcdc1fc",
+      "name": "Evaluación individual",
+      "route": "/individual",
+      "item_ref": {
+        "index": 1,
+        "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+      },
+      "blocks": [
+        {
+          "id": "nav-individual",
+          "type": "sidebar",
+          "label": "Navegación AmylAI",
+          "hint": "Accesos a Individual, Diagnóstico, Lotes, Base de datos, Guía y Estrés",
+          "x": 0,
+          "y": 0,
+          "w": 3,
+          "h": 10,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "individual-form",
+          "type": "form",
+          "label": "Formulario clínico individual",
+          "hint": "Entrada estructurada de variables clínicas, biomarcadores y carga de PDF",
+          "x": 3,
+          "y": 0,
+          "w": 5,
+          "h": 7,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "redflags-panel",
+          "type": "card",
+          "label": "Panel de señales de alerta",
+          "hint": "Red flags detectadas y severidad clínica",
+          "x": 8,
+          "y": 0,
+          "w": 4,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "risk-diagram",
+          "type": "card",
+          "label": "Diagrama de riesgo",
+          "hint": "Resumen visual del razonamiento experto y score combinado",
+          "x": 8,
+          "y": 3,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "narrative-panel",
+          "type": "text",
+          "label": "Narrativa clínica",
+          "hint": "Explicación generada por reglas/LLM con advertencia médica",
+          "x": 3,
+          "y": 7,
+          "w": 9,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-9897d077",
+      "name": "Diagnóstico",
+      "route": "/diagnosis",
+      "item_ref": {
+        "index": 1,
+        "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+      },
+      "blocks": [
+        {
+          "id": "nav-diagnosis",
+          "type": "sidebar",
+          "label": "Navegación AmylAI",
+          "hint": "Accesos a Individual, Diagnóstico, Lotes, Base de datos, Guía y Estrés",
+          "x": 0,
+          "y": 0,
+          "w": 3,
+          "h": 10,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "diagnosis-result",
+          "type": "card",
+          "label": "Resultado principal",
+          "hint": "Clasificación, nivel de confianza y recomendación de siguiente paso",
+          "x": 3,
+          "y": 0,
+          "w": 5,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "evidence-panel",
+          "type": "card",
+          "label": "Evidencia clínica",
+          "hint": "Variables que apoyan o contradicen el resultado",
+          "x": 8,
+          "y": 0,
+          "w": 4,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "model-breakdown",
+          "type": "table",
+          "label": "Detalle de reglas y modelo",
+          "hint": "Aportes de algoritmo experto, heurística y ensamble ML",
+          "x": 3,
+          "y": 3,
+          "w": 9,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "case-actions",
+          "type": "form",
+          "label": "Acciones del caso",
+          "hint": "Guardar, exportar, añadir nota clínica o volver a evaluar",
+          "x": 3,
+          "y": 7,
+          "w": 9,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Integrar el flujo individual y diagnóstico con las reglas clínicas, red flags, heurística, narrativa, OCR/LLM reales del código subido y una vista clara de resultado con explicación clínica."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-5df66297",
+      "name": "Procesamiento por lotes",
+      "route": "/batch",
+      "item_ref": {
+        "index": 2,
+        "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+      },
+      "blocks": [
+        {
+          "id": "nav-batch",
+          "type": "sidebar",
+          "label": "Navegación AmylAI",
+          "hint": "Accesos a Individual, Diagnóstico, Lotes, Base de datos, Guía y Estrés",
+          "x": 0,
+          "y": 0,
+          "w": 3,
+          "h": 10,
+          "item_ref": {
+            "index": 2,
+            "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "batch-upload",
+          "type": "form",
+          "label": "Carga de archivos",
+          "hint": "Importación CSV/PDF y parámetros del análisis por lotes",
+          "x": 3,
+          "y": 0,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "batch-status",
+          "type": "card",
+          "label": "Estado de procesamiento",
+          "hint": "Progreso, errores y registros válidos detectados",
+          "x": 8,
+          "y": 0,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "batch-results",
+          "type": "table",
+          "label": "Resultados del lote",
+          "hint": "Listado de pacientes/casos con riesgo, alertas y acciones",
+          "x": 3,
+          "y": 4,
+          "w": 9,
+          "h": 6,
+          "item_ref": {
+            "index": 2,
+            "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-1ee03154",
+      "name": "Base de datos clínica",
+      "route": "/database",
+      "item_ref": {
+        "index": 2,
+        "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+      },
+      "blocks": [
+        {
+          "id": "nav-database",
+          "type": "sidebar",
+          "label": "Navegación AmylAI",
+          "hint": "Accesos a Individual, Diagnóstico, Lotes, Base de datos, Guía y Estrés",
+          "x": 0,
+          "y": 0,
+          "w": 3,
+          "h": 10,
+          "item_ref": {
+            "index": 2,
+            "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "database-filters",
+          "type": "form",
+          "label": "Búsqueda y filtros",
+          "hint": "Filtrar por fecha, riesgo, origen, alerta y estado",
+          "x": 3,
+          "y": 0,
+          "w": 9,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "database-table",
+          "type": "table",
+          "label": "Registros guardados",
+          "hint": "Casos clínicos, importaciones y resultados persistidos",
+          "x": 3,
+          "y": 2,
+          "w": 9,
+          "h": 6,
+          "item_ref": {
+            "index": 2,
+            "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "record-detail",
+          "type": "card",
+          "label": "Detalle seleccionado",
+          "hint": "Resumen del caso, narrativa, trazabilidad y acciones",
+          "x": 3,
+          "y": 8,
+          "w": 9,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Construir el flujo por lotes y la base de datos clínica con carga CSV/PDF, revisión de registros, guardado persistente, búsqueda, filtros y estados de importación."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-dbe39371",
+      "name": "Guía clínica",
+      "route": "/guide",
+      "item_ref": {
+        "index": 3,
+        "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+      },
+      "blocks": [
+        {
+          "id": "nav-guide",
+          "type": "sidebar",
+          "label": "Navegación AmylAI",
+          "hint": "Accesos a Individual, Diagnóstico, Lotes, Base de datos, Guía y Estrés",
+          "x": 0,
+          "y": 0,
+          "w": 3,
+          "h": 10,
+          "item_ref": {
+            "index": 3,
+            "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "guide-index",
+          "type": "text",
+          "label": "Índice clínico",
+          "hint": "Secciones sobre sospecha, red flags, interpretación y límites",
+          "x": 3,
+          "y": 0,
+          "w": 3,
+          "h": 8,
+          "item_ref": {
+            "index": 3,
+            "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "guide-content",
+          "type": "text",
+          "label": "Contenido de guía",
+          "hint": "Explicaciones clínicas navegables y criterios de uso",
+          "x": 6,
+          "y": 0,
+          "w": 6,
+          "h": 8,
+          "item_ref": {
+            "index": 3,
+            "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-f2ca97b1",
+      "name": "Estrés y validación",
+      "route": "/stress",
+      "item_ref": {
+        "index": 3,
+        "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+      },
+      "blocks": [
+        {
+          "id": "nav-stress",
+          "type": "sidebar",
+          "label": "Navegación AmylAI",
+          "hint": "Accesos a Individual, Diagnóstico, Lotes, Base de datos, Guía y Estrés",
+          "x": 0,
+          "y": 0,
+          "w": 3,
+          "h": 10,
+          "item_ref": {
+            "index": 3,
+            "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "stress-config",
+          "type": "form",
+          "label": "Configuración de escenarios",
+          "hint": "Generación sintética y parámetros de validación",
+          "x": 3,
+          "y": 0,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "validation-metrics",
+          "type": "chart_bar",
+          "label": "Métricas de rendimiento",
+          "hint": "Barras visibles de sensibilidad, especificidad y precisión",
+          "x": 7,
+          "y": 0,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "scenario-results",
+          "type": "table",
+          "label": "Resultados por escenario",
+          "hint": "Casos sintéticos, predicción y discrepancias",
+          "x": 3,
+          "y": 4,
+          "w": 9,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Crear la guía clínica y el módulo de estrés/validación con contenido navegable, análisis estadístico, escenarios sintéticos y visualizaciones de rendimiento."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}
